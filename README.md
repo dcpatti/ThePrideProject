@@ -6,6 +6,7 @@
  
    * Python and Pandas for data cleaning
    * Twitter API and ScraPy to collect tweets
+   * SpaCy, Vader, and/or NLTK for sentiment analysis and natural language processing
    * D3, Plotly and/or Bokeh to create visualizations
    * Flask for web micro-services
  
