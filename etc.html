@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Pride Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">The Pride Project</a>
+				<nav>
+					<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="tweets.html" class="active">The Tweets</a></li>
+											<li><a href="survey.html">The Survey</a></li>
+											<li><a href="sentiment.html">The Sentiments</a></li>
+											<li><a href="etc.html">The Project</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">About the Project</h1>
+						<br><br>
+						<p>Over 10,000 Tweets were scraped using the Twitter API and the Python Scrapy library. We focused on a period before and after each team's Pride Night event. This translated to a 4-week
+						window for most teams, but the window was extended for certain low-activity teams, in order to collect enough activity to analyze. </p>
+						<p>The survey was distributed via MLB-generic Facebook groups, sub-Reddits, and via Twitter.  We avoided team-specific groups, so as to not skew the results.</p>
+						<p>Data cleaning and normalizing was done using Python, Pandas and Numpy.  The sentiment analysis was performed with Vader, Scikit-learn, and NLTK libraries.</p>
+						<p>Visualizations were created in Tableau, Flourish, and WordCloud.</p>
+							<span class="image fit"><img src="images/nats_flags.jpg" alt="" /></span>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li><a href="https://github.com/dcpatti/ThePrideProject">Github Repo</a></li> <li>Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
