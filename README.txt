@@ -1,2 +1,2 @@
 
-![MLB Logo in pride colors](images/baseball_logo.jpg)
+![MLB Logo in pride colors](images/mlbpride.jpg)
